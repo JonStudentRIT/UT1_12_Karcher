@@ -25,13 +25,13 @@ namespace UT1_12
             // check if the user enterd a specific name
             if(GiveRaise(sName,ref dSalary))
             {
-                Console.WriteLine("Congrdulations you have recieved a raise.");
+                Console.WriteLine("Congrtulations you have recieved a raise.");
             }
             // display the current status of the user
             Console.WriteLine("Your salary is {0}.", dSalary);
         }
         /* Method: GiveRaise
-         * Purpose: Check if the users name is the same as my name, give a raies accordingly
+         * Purpose: Check if the users name is the same as my name, give a raise accordingly
          * Restrictions: None
          */
         static bool GiveRaise(string name, ref double salary)
